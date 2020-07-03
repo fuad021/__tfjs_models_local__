@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no">
+        <script src="./three.min.js"></script>
+        <script src="./scatter-gl.js"></script>
+        <style>#canvas-wrapper{position:relative}#canvas-wrapper,#scatter-gl-container{display:inline-block;vertical-align:top}</style>
+        <script src="./stats.min.js"></script>
+    </head>
+    <body>
+        <div id="info" style="display:none"></div>
+        <div id="predictions"></div>
+        <div id="canvas-wrapper">
+            <canvas id="output"></canvas>
+            <video id="video" playsinline="" style="-webkit-transform:scaleX(-1);transform:scaleX(-1);visibility:hidden;width:auto;height:auto;position:absolute;"> </video>
+        </div>
+        <div id="scatter-gl-container"></div>
+        <script src="./dat.gui.min.js"></script>
+        <script src="./demo.b00ee1ed.js"></script>
+    </body>
+</html>

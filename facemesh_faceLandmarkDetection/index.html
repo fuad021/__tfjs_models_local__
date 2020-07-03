@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="./three.min.js"></script>
+        <script src="./scatter-gl.min.js"></script> 
+        <style>
+            #scatter-gl-container,.canvas-wrapper{display:inline-block;vertical-align:top}#scatter-gl-container{border:1px solid #000;position:relative}#scatter-gl-container canvas{transform:translate3d(-50%,-50%,0);left:50%;top:50%;position:absolute}
+        </style>
+    </head>
+    <body>
+    <div id="main">
+        <div class="container">
+            <div class="canvas-wrapper">
+                <canvas id="output"></canvas>
+                <video id="video" playsinline="" style="-webkit-transform:scaleX(-1);transform:scaleX(-1);visibility:hidden;width:auto;height:auto;"></video>
+            </div>
+            <div id="scatter-gl-container"></div>
+        </div>
+    </div>
+    </body>
+    <script src="./dat.gui.min.js"></script><script src="./demo.fd0b9f10.js"></script>
+</html>
